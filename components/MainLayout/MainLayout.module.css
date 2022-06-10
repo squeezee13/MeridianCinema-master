@@ -1,0 +1,877 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lexend:wght@500&family=Marck+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.customMain {
+    margin-top: 60px;
+    padding: 1rem;
+    min-height: 100vh;
+    flex: 1 1 auto;
+}
+
+.customNav {
+    z-index: 99;
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #0c3e50cf;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.lastPartHeader {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 40px;
+}
+
+.bookingSpan,
+.emailSpan,
+.locationSpan {
+    font-weight: 800;
+    color: rgb(99, 137, 189);
+    font-size: 18px;
+}
+
+.bookingSpan span {
+    font-weight: 700;
+    font-weight: normal !important;
+    color: #fff !important;
+}
+
+.customNav a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px !important;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.customNav a:hover {
+    color: #3e6cbf;
+}
+
+.hello {
+    text-align: center;
+    font-size: 3.3em;
+    color: #3e6cbf;
+}
+
+.textImax {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clickJourney {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.3em;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 20.8px;
+}
+
+.createdBy {
+    text-align: center;
+    color: #a7aebc;
+}
+
+.authorText,
+.aboutUsText {
+    max-width: 600px;
+}
+
+.aboutUsText1,
+.aboutUsText2,
+.aboutUsText3 {
+    font-size: 24px;
+    max-width: 800px;
+    color: #030a37;
+
+}
+
+.cursiveText {
+    color: #000;
+    font-weight: 600;
+}
+
+.bigText {
+    color: #c92a2a;
+}
+
+.aboutUsText {
+    max-width: 500px !important;
+    font-size: 30px;
+    font-weight: 700;
+    color: #90c7e6;
+}
+
+.container img {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 65vw;
+    border-radius: 15px;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 -30px 0;
+}
+
+.textIndex {
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 24px;
+
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textFirst span,
+.textSecond span,
+.textThird span {
+    font-weight: 600;
+}
+
+.textFirst {
+    font-size: 1.6em;
+}
+
+.textFirst span {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #4269cb;
+}
+
+.textSecondA {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.textImax {
+    color: #fff;
+}
+
+.textSecond {
+    color: #b0d2ef;
+}
+
+.textIndex {
+    color: #4269cb;
+    font-weight: 700;
+}
+
+.textIndexMain {
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 24px;
+
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    color: #99b3be;
+    font-weight: 600;
+}
+
+.textThird {
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 300;
+}
+
+.hello {
+    position: relative;
+    top: 50px;
+}
+
+.clickJourney {
+    position: relative;
+    top: 125px;
+}
+
+.accordionGroup {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    max-width: 800px;
+    display: grid;
+    margin: 0 auto;
+}
+
+.authorText {
+    color: #9e9fa1;
+    font-family: 'Manrope', sans-serif;
+
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.authorTextSpan {
+    font-weight: 600;
+}
+
+.footer {
+    font-family: 'Manrope', sans-serif;
+    padding: 10px 20px;
+    margin: 0 -14px;
+    display: grid;
+    background-color: #030a37;
+    grid-template-columns: repeat(2, auto);
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.aboutPageWrap {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.cursiveText {
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 26px;
+}
+
+.bigText {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lpnuWrapper {
+    padding-bottom: 30px;
+}
+
+.wrapperLogoIn {
+    padding: 5px;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.wrapperLogo {
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.wrapperLogo img {
+    height: 20px;
+    width: 20px;
+}
+
+.wrapperLogo:hover {
+    background-color: #575db0;
+}
+
+.dated {
+    color: #fff;
+}
+
+.wrapperLogoLpnu {
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 15px 10px 10px rgba(196, 196, 196, 0.7) !important;
+}
+
+.wrapperLogoLpnu img {
+    border-radius: 25px;
+    width: 288px !important;
+}
+
+.wrapperLogoLpnu:hover {
+    position: relative;
+    top: 2px;
+}
+
+.row {
+    font-family: 'Manrope', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.textBarbersFirst,
+.textBarbers {
+    font-family: 'Manrope', sans-serif;
+
+    text-align: center;
+}
+
+.textBarbersFirst {
+    color: #fff;
+    font-size: 36px;
+}
+
+.textBarbers {
+    color: #c0c0c0 !important;
+    font-size: 26px;
+}
+
+.pic img {
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+.pic {
+    padding: 0 20px;
+}
+
+.chefs {
+    margin: 80px -30px -20px;
+    padding: 0 5em 40px;
+    position: relative;
+}
+
+.chefs::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 9;
+}
+
+.textBarbers {
+    color: #fff;
+}
+
+.chefs .container {
+    position: relative;
+    z-index: 10;
+}
+
+.chefs .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.chefs .member .pic {
+    overflow: hidden;
+}
+
+.chefs .member .memberInfo {
+    border-radius: 15px;
+    margin: 0 20px;
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 0 20px 25px;
+    color: #433f39;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.chefs .member h4 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #6c665c;
+    position: relative;
+    padding-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.chefs .member h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #ffcf88;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.chefs .member span {
+    font-style: italic;
+    display: block;
+    /* font-size: 16px; */
+}
+
+.chefs .member {
+    margin-top: 15px;
+}
+
+.social {
+    margin: 15px 0;
+}
+
+.chefs .member .social a {
+    transition: color 0.3s;
+    color: #7a7368;
+}
+
+.chefs .member .social a:hover {
+    color: #ffb03b;
+}
+
+.chefs .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.salesPageWrap {
+    color: #fff;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.sertificat {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.sertificatText1 {
+    text-align: center;
+}
+
+.sertificat img {
+    border-radius: 20px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.sertificatPrice {
+    padding: 10px 0;
+    margin: 0;
+    color: #b62727;
+    font-size: 28px;
+}
+
+.sertificatOne {
+    font-weight: 700;
+    padding: 40px 0 10px;
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+.sertButton {
+    margin: 15px 0;
+    padding: 20px;
+    background-color: #b23131;
+    font-size: 28px;
+    border: none;
+    border-radius: 15px;
+}
+
+.sertificatText2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.sertificatText3 {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 2em;
+}
+
+.sertificatText4 {
+    padding-top: 20px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.sertificatText3,
+.sertificatText4 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.sertificatText1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.sertificatText1Span,
+.sertificatTwo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+
+    display: inline-block;
+    max-width: 815px;
+    color: #5292c5;
+}
+
+.soonPageWrap {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+}
+
+.filmSoon img {
+    width: 300px;
+    height: 443px;
+}
+
+.filmSoon p {
+    font-weight: 600;
+    font-size: 22px;
+    color: #599fe7;
+}
+
+.map {
+    margin: 70px 0 30px;
+}
+
+.gmailBlock,
+.locationBlock {
+    gap: 10px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.firstFooterBlock a {
+    color: #116481;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    padding: 10px 0 0 10px;
+}
+
+.pagesBlock,
+.pagesLis,
+.social {
+    display: grid;
+}
+
+
+label .menu {
+    position: absolute;
+    right: -139px;
+    top: -141px;
+    z-index: 100;
+    width: 200px;
+    height: 200px;
+    background: #116481;
+    border-radius: 0%;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+    cursor: pointer;
+
+}
+
+label .hamburger {
+    position: absolute;
+    top: 170px;
+    left: 17px;
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+label .hamburger:after,
+label .hamburger:before {
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+label .hamburger:before {
+    top: -10px;
+}
+
+label .hamburger:after {
+    bottom: -10px;
+}
+
+.inputCustom {
+    display: none;
+}
+
+input:checked+.menu {
+    box-shadow: 0 0 0 100vw #116481, 0 0 0 100vh #116481;
+    border-radius: 0;
+    display: grid;
+    justify-items: center;
+}
+
+input:checked+.menu .hamburger {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+input:checked+.menu .hamburger:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+input:checked+.menu .hamburger:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 0;
+}
+
+input+.menu+ul {
+    display: none;
+    padding: 0;
+    z-index: 999;
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transition: .5s 0s ease-in-out;
+    transition: .5s 0s ease-in-out;
+}
+
+input+.menu+ul .customA {
+    opacity: 0;
+
+    margin-bottom: 3em;
+    display: none;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+input:checked+.menu+ul {
+    opacity: 1;
+    padding-left: 10%;
+    display: grid;
+    justify-items: start;
+}
+
+input:checked+.menu+ul .customA {
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    opacity: 1;
+    display: block;
+}
+
+input:checked+.menu+ul a:focus {
+    padding: 10px;
+    outline: none !important;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 15px;
+}
+
+input:checked+.menu+ul a:hover {
+    color: #ebebeb !important;
+    font-weight: 700 !important;
+}
+
+.burgerLabel {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .chefs {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 1020px) {
+    .customUl {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .customUl li {
+        max-width: unset;
+    }
+
+    .row {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width: 1010px) {
+    .lastPartHeader {
+        display: none;
+    }
+
+    .burgerLabel {
+        display: unset;
+    }
+}
+
+@media (max-width: 992px) {
+    .chefs .member {
+        margin-bottom: 110px;
+    }
+}
+
+@media (max-width: 925px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .thirdInstructor {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .partFirstMain,
+    .partThirdMain {
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+
+    .partFirstMainPhoto,
+    .partThirdMainPhoto {
+        display: grid;
+        grid-row-start: 2;
+    }
+}
+
+@media (max-width: 788px) {
+    .row {
+        grid-template-columns: auto;
+    }
+
+    .emailForm textarea {
+        width: 10.7rem;
+    }
+}
+
+@media (max-width: 745px) {
+
+    .firstFooterBlock,
+    .bookingSpan {
+        display: none;
+    }
+
+    .footer {
+        padding: 20px;
+        grid-template-columns: auto;
+        gap: 5px;
+    }
+
+    .dated {
+        text-align: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .row {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .thirdInstructor {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
+@media (max-width: 595px) {
+    .customNav a {
+        font-size: 20px;
+    }
+
+    .customNav {
+        padding: 0 2rem;
+    }
+
+    @media (max-width: 595px) {
+        .customNav a {
+            font-size: 20px;
+        }
+
+        .customNav {
+            padding: 0 2rem;
+        }
+
+        .chefs {
+            padding: 0 2em 40px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .customNav a {
+        font-size: 18px;
+    }
+
+    .customNav {
+        padding: 0 1rem;
+    }
+}
